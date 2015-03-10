@@ -1,0 +1,14 @@
+%% -*- mode: erlang;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+%% ex: ft=erlang sw=4 et
+{application, test, [
+        {description, "CrapApp"},
+        {vsn, "0.1.0"},
+        {modules, []},
+        {registered, []},
+        {applications, [
+                kernel,
+                stdlib
+                ]},
+        {mod, {test_app, []}},
+        {env, []}
+        ]}.
