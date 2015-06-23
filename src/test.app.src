@@ -6,8 +6,9 @@
         {modules, []},
         {registered, []},
         {applications, [
-                kernel,
-                stdlib
+                        kernel,
+                        stdlib,
+                        lager
                 ]},
         {mod, {test_app, []}},
         {env, []}
